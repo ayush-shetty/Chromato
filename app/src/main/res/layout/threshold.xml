@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#0699F8"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view100"
+        android:layout_width="307dp"
+        android:layout_height="515dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="125dp"
+        android:background="@color/black"
+        android:elevation="10dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/slider"
+        style="@android:style/Widget.Material.Light.SeekBar"
+        android:layout_width="323dp"
+        android:layout_height="34dp"
+        android:backgroundTint="#9C27B0"
+        android:progressTint="#E91E63"
+        app:layout_constraintBottom_toTopOf="@+id/over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view100"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:textColor="@color/black"
+        android:text="Done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="307dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="45dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Choose a threshold such that the red overlay perfectly covers the spot"
+        app:layout_constraintEnd_toEndOf="@+id/slider"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
