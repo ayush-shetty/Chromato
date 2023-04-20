@@ -7,11 +7,11 @@ Chromato is an android application for the quantification of Thin Layer Chromato
 
 ## Installation
 
-You can install this application to test on your android smartphone. To download the application go to your browser and copy-paste the download link:
+You can install this application to test on your android smartphone. Download the apk in the repository: 
 ```bash
 https://github.com/ayush-shetty/Chromato/Chromato.apk
 ```
-Download will be started automatically. After then install it on your android device. Open the application, create an account. That's it.
+After that install it on your android device. 
 
 N.B: It supports only in android version 4.0 or later.
 
