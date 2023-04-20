@@ -2,6 +2,7 @@
 
 
 # Chromato: An android application for quantification in thin layer chromatography
+Chromato is an android application for the quantification of Thin Layer Chromatography (TLC) based on intensity. TLC is a widely used technique in forensic science for the analysis and identification of drugs, inks, and other substances. The app provides a user-friendly interface to upload or capture an image, crop and rotate the image, select lanes and spots, adjust peak prominence, and calculate the table of integrated spots. The app leverages the existing computational power and display capabilities of smartphones to provide an intuitive and cost-effective solution for TLC analysis compared to the very expensive densitometry method and error prone manual method.
  
 
 ## Installation
