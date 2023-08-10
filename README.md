@@ -15,7 +15,6 @@ After that install it on your android device.
 
 N.B: It supports only in android version 4.0 or later.
 
-## Preview
 
 ## National Forensic Hackathon presentation (Finals)
 [CHROMATO_FCS009.pptx](https://github.com/ayush-shetty/Chromato/files/11287171/CHROMATO_FCS009.pptx)
